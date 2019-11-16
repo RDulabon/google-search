@@ -26,7 +26,7 @@ button {
 }
 
 .nav_bar {
-    margin-left: 75px;
+    margin-left: 85px;
     font-family: Arial;
     font-size: 14px;
 }
@@ -39,15 +39,39 @@ li {
     display: inline;
 }
 
-.search_options a, .settings a, .right_header a {
+.search_options a, .settings a, .right_header a, .footer a {
     color: gray;
     text-decoration: none;
 }
 
-.search_options a:hover, .settings a:hover, .right_header a:hover {
+.search_options a:hover, .settings a:hover, .right_header a:hover, .footer a:hover {
     color: blue;
 }
 
+hr {
+    border-top: 1px solid gainsboro;
+}
+
 main {
-    margin-left: 75px;
+    margin-left: 125px;
+    font-family: Arial;
+}
+
+.results h3, .results p {
+    margin: 0;
+
+h3 a {
+    text-decoration: none;
+}
+
+.other_searches, .other_searches td {
+    border-collapse: collapse;
+    border: 1px solid gainsboro;
+    width: 600px;
+}
+
+footer {
+    margin-left: 125px;
+    font-family: Arial;
+    font-size: 10px;
 }
