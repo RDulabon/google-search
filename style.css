@@ -1,0 +1,53 @@
+.logo,.search_bar,.grid_logon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.grid_logon {
+    float: right;
+}
+
+.search_bar {
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+    text-indent: 15px;
+}
+
+button {
+    background-color: blue;
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.nav_bar {
+    margin-left: 75px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.search_options,.settings {
+    display: inline-block;
+  }
+
+li {
+    display: inline;
+}
+
+.search_options a, .settings a, .right_header a {
+    color: gray;
+    text-decoration: none;
+}
+
+.search_options a:hover, .settings a:hover, .right_header a:hover {
+    color: blue;
+}
+
+main {
+    margin-left: 75px;
+}
